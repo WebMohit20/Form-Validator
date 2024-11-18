@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form-Validater</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Sign-Up</h2>
+            <div class="form-handler ">
+                <input type="text" id="name" placeholder="Enter your name"  spellcheck="false">
+                <small>Error Message</small>
+            </div>
+            <div class="form-handler ">
+                <input type="email" id="email" placeholder="Enter your email"  spellcheck="false">
+                <small>Error Message</small>
+            </div>
+            <div class="form-handler">
+                <input type="password" id="password" placeholder="Enter your password" >
+                <small>Error Message</small>
+            </div>
+            <div class="form-handler">
+                <input type="password" id="confirm-password" placeholder="Enter your confirm password" >
+                <small>Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
